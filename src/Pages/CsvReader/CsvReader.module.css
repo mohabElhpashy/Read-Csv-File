@@ -1,0 +1,84 @@
+.Main{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #242424;
+}
+.FileUpload{
+    display: inline-block;
+    padding: 0 12px ;
+    height: 36px;
+    line-height: 36px;
+    color: white;
+    background-color: #009688;
+    cursor: pointer;
+}
+.Main label{
+padding: 16px 48px;
+border: 3px solid #ffc872;
+border-radius: 48px;
+text-transform: uppercase;
+width: 40px;
+letter-spacing: 2px;
+font-weight: bold;
+color: #ffc872;
+cursor: pointer;
+    /* display: none; */
+}
+.Main label:hover{
+    transform: scale(1.04);
+}
+.Main label:active{
+    background-color:#ffc872 ;
+    color: #242424;
+}
+form div{
+    position: relative;
+}
+form input{
+    position:absolute;
+    z-index: 1;
+    width: inherit;
+    opacity: 0;
+    cursor: pointer;
+    top: -17px;
+    height: 57px;
+}
+p{
+    color: #ffc872;
+    margin-top: 25px;
+}
+.DowloadFiles{
+    display: flex;
+    display: flex;
+    width: 350px;
+    margin-top: 45px;
+    /* color: red; */
+    justify-content: space-between;
+}
+.CSVLink{
+    color:#ffc872 ;
+}
+.Read{
+    border: 1px solid black;
+    padding: 16px 48px;
+border-radius: 48px;
+background-color: #ffc872;
+text-transform: uppercase;
+width: 40px;
+letter-spacing: 2px;
+font-weight: bold;
+color: black;
+text-align: center;
+display: flex;
+justify-content: center;
+cursor: pointer;
+
+
+}
+.Read:hover{
+background-color: black;
+color: #ffc872;
+transform: scale(1.10);
+}

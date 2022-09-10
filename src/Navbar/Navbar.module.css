@@ -1,0 +1,16 @@
+.NavBar{
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 1px;
+    box-shadow: 10px 10px 10px grey;
+    font-style: italic;
+    font-weight: bold;
+    letter-spacing: 6px;
+    font-size: 21px;
+
+}
